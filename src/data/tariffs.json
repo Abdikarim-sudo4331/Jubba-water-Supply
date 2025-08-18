@@ -1,0 +1,44 @@
+{
+  "currency": {
+    "primary": "USD",
+    "secondary": "SOS",
+    "exchangeRate": 570,
+    "note": "Exchange rate is approximate and subject to change"
+  },
+  "consumption": [
+    {
+      "tier": "0-10 m³",
+      "priceUSD": 0.50,
+      "priceSOS": 285,
+      "description": "Basic household usage"
+    },
+    {
+      "tier": "11-20 m³",
+      "priceUSD": 0.75,
+      "priceSOS": 428,
+      "description": "Standard household usage"
+    },
+    {
+      "tier": "21-50 m³",
+      "priceUSD": 1.00,
+      "priceSOS": 570,
+      "description": "High household/small business"
+    },
+    {
+      "tier": "50+ m³",
+      "priceUSD": 1.25,
+      "priceSOS": 713,
+      "description": "Commercial/institutional"
+    }
+  ],
+  "connectionFees": {
+    "newConnection": {
+      "residential": { "usd": 50, "sos": 28500 },
+      "commercial": { "usd": 100, "sos": 57000 }
+    },
+    "meterDeposit": { "usd": 25, "sos": 14250 },
+    "reconnection": { "usd": 15, "sos": 8550 },
+    "transfer": { "usd": 10, "sos": 5700 },
+    "replacement": { "usd": 30, "sos": 17100 }
+  }
+}

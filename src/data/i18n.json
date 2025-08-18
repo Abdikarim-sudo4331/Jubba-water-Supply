@@ -1,0 +1,58 @@
+{
+  "en": {
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "support": "Support",
+      "about": "About",
+      "apply": "Apply for Connection",
+      "payBill": "Pay Bill"
+    },
+    "hero": {
+      "title": "Clean, Safe, Reliable",
+      "subtitle": "Tap Water for Kismayo",
+      "description": "Municipal water supply serving homes and businesses across Kismayo with treated, quality-tested drinking water.",
+      "ctaPrimary": "Apply for Connection",
+      "ctaSecondary": "View Tariffs"
+    },
+    "stats": {
+      "households": "Households Served",
+      "uptime": "System Uptime",
+      "pressure": "Avg. Pressure",
+      "tests": "Quality Tests/Month"
+    },
+    "footer": {
+      "tagline": "Clean, safe, reliable tap water for Kismayo",
+      "copyright": "© 2025 Jubba Water Supply. All rights reserved.",
+      "disclaimer": "This website may contain placeholder information pending final confirmation."
+    }
+  },
+  "so": {
+    "nav": {
+      "home": "Guriga",
+      "services": "Adeegyo",
+      "support": "Taageero",
+      "about": "Naga",
+      "apply": "Codsasho Xidhiidh",
+      "payBill": "Bixi Biilka"
+    },
+    "hero": {
+      "title": "Biyo Nadiif, Badbaado, Lagu Kalsoon Yahay",
+      "subtitle": "Biyo Sharaab ah Kismayo",
+      "description": "Biyaha dawladda ee u adeega guryaha iyo ganacsiyada Kismayo oo leh biyo la daweeyay oo la tijaabiyay.",
+      "ctaPrimary": "Codso Xidhiidh",
+      "ctaSecondary": "Eeg Qiimaha"
+    },
+    "stats": {
+      "households": "Qoysas la Adeegayo",
+      "uptime": "Wakhtiga Hawlgalka",
+      "pressure": "Cadaadiska Celceliska",
+      "tests": "Tijaabooyin Bishii"
+    },
+    "footer": {
+      "tagline": "Biyo nadiif, badbaado, lagu kalsoon yahay Kismayo",
+      "copyright": "© 2025 Jubba Water Supply. Dhammaan xuquuqda way dhowran yihiin.",
+      "disclaimer": "Websaydhkani wuxuu ku jiri karaa macluumaad gacal-gacal ah oo sugaya xaqiijin dhammaystiran."
+    }
+  }
+}

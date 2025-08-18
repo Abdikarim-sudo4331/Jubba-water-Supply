@@ -1,0 +1,29 @@
+{
+  "emergency": {
+    "phone": "+252-90-712-3456",
+    "whatsapp": "+252-90-712-3456",
+    "available": "24/7"
+  },
+  "customerService": {
+    "phone": "+252-90-789-0123",
+    "email": "info@jubbawater.so",
+    "hours": "Monday-Saturday: 8:00 AM - 6:00 PM"
+  },
+  "technical": {
+    "phone": "+252-90-555-0199",
+    "email": "technical@jubbawater.so",
+    "hours": "Monday-Friday: 8:00 AM - 5:00 PM"
+  },
+  "billing": {
+    "phone": "+252-90-444-0188",
+    "email": "billing@jubbawater.so",
+    "hours": "Monday-Saturday: 9:00 AM - 4:00 PM"
+  },
+  "office": {
+    "address": "Central Market Area, Kismayo, Jubbaland, Somalia",
+    "coordinates": {
+      "lat": -0.3582,
+      "lng": 42.5454
+    }
+  }
+}

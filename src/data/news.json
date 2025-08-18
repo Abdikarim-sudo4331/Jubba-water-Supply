@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "type": "alert",
+    "title": "Scheduled Maintenance - North District",
+    "titleLocal": "Dayactir Qorshe ah - Degmada Waqooyi",
+    "summary": "Water supply will be temporarily interrupted on January 20th from 8 AM to 2 PM for pipeline maintenance.",
+    "date": "2025-01-18",
+    "areas": ["north"],
+    "priority": "high"
+  },
+  {
+    "id": "2",
+    "type": "news",
+    "title": "New Water Treatment Facility Operational",
+    "titleLocal": "Xarun Cusub oo Daweynta Biyaha ah oo Hawlgal",
+    "summary": "Our expanded treatment facility is now operational, increasing capacity by 40% to serve growing demand.",
+    "date": "2025-01-15",
+    "areas": ["all"],
+    "priority": "medium"
+  },
+  {
+    "id": "3",
+    "type": "notice",
+    "title": "Quality Test Results - December 2024",
+    "titleLocal": "Natiijada Tijaabada Tayada - December 2024",
+    "summary": "Monthly water quality tests show all parameters within excellent ranges. Full report available for download.",
+    "date": "2025-01-10",
+    "areas": ["all"],
+    "priority": "low"
+  }
+]

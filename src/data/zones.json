@@ -1,0 +1,42 @@
+[
+  {
+    "id": "central",
+    "name": "Kismayo Central",
+    "nameLocal": "Kismayo Dhexe",
+    "status": "available",
+    "households": 2500,
+    "areas": ["Market District", "Port Area", "Government Quarter", "Old Town"]
+  },
+  {
+    "id": "north",
+    "name": "Kismayo North",
+    "nameLocal": "Kismayo Waqooyi",
+    "status": "available",
+    "households": 1800,
+    "areas": ["Residential North", "School District", "Hospital Area"]
+  },
+  {
+    "id": "south",
+    "name": "Kismayo South",
+    "nameLocal": "Kismayo Koonfur",
+    "status": "available",
+    "households": 1200,
+    "areas": ["Coastal Area", "Fishing District", "New Development"]
+  },
+  {
+    "id": "east",
+    "name": "Kismayo East",
+    "nameLocal": "Kismayo Bari",
+    "status": "coming_soon",
+    "households": 800,
+    "areas": ["Airport Road", "Industrial Zone", "Expansion Area"]
+  },
+  {
+    "id": "outskirts",
+    "name": "Surrounding Villages",
+    "nameLocal": "Tuulooyinka Hareeraha",
+    "status": "not_planned",
+    "households": 500,
+    "areas": ["Rural Areas", "Farming Communities"]
+  }
+]
