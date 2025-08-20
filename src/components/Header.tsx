@@ -92,9 +92,11 @@ const Header: React.FC = () => {
               className="flex items-center space-x-3"
               whileHover={{ scale: 1.02 }}
             >
-              <div className="bg-gradient-to-br from-sky-blue to-ocean-blue p-2.5 rounded-2xl shadow-md">
-                <Droplets className="h-6 w-6 text-white" />
-              </div>
+              <img
+                src="/JWS Logo.png"
+                alt="JWS Logo"
+                className="h-12 w-12 object-contain"
+              />
               <div>
                 <h1 className="text-xl font-bold text-gray-900 font-inter">
                   Jubba Water Supply
