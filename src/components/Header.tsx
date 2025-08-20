@@ -148,13 +148,6 @@ const Header: React.FC = () => {
               {/* CTA Buttons */}
               <div className="flex items-center space-x-3">
                 <a
-                  href="#pay"
-                  className="flex items-center space-x-2 text-ocean-blue hover:text-sky-blue font-medium px-4 py-2.5 rounded-xl hover:bg-sky-blue/5 transition-all duration-200"
-                >
-                  <CreditCard className="w-4 h-4" />
-                  <span>{t('nav.payBill')}</span>
-                </a>
-                <a
                   href="#apply"
                   className="flex items-center space-x-2 bg-gradient-to-r from-ocean-blue to-sky-blue text-white px-6 py-2.5 rounded-full font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200"
                 >
