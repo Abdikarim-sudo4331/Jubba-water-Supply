@@ -155,11 +155,11 @@ const Hero: React.FC = () => {
               </a>
               
               <a
-                href="tel:+252907123456"
+                href="tel:2140"
                 className="group flex items-center justify-center space-x-3 bg-white text-gray-700 px-8 py-4 rounded-2xl font-semibold text-lg border-2 border-gray-200 hover:border-ocean-blue hover:text-ocean-blue transition-all duration-300 shadow-md hover:shadow-lg"
               >
                 <Phone className="w-5 h-5 text-red-500" />
-                <span>Emergency: +252 907 123 456</span>
+                <span>Emergency: 2140</span>
               </a>
             </motion.div>
 

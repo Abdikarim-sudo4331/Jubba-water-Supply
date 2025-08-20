@@ -206,13 +206,6 @@ const Header: React.FC = () => {
                   {/* Mobile CTAs */}
                   <div className="flex flex-col space-y-3 pt-6 border-t border-gray-100">
                     <a
-                      href="#pay"
-                      className="flex items-center justify-center space-x-2 border-2 border-ocean-blue text-ocean-blue px-6 py-3 rounded-full font-semibold text-center hover:bg-ocean-blue hover:text-white transition-all duration-200"
-                    >
-                      <CreditCard className="w-4 h-4" />
-                      <span>{t('nav.payBill')}</span>
-                    </a>
-                    <a
                       href="#apply"
                       className="flex items-center justify-center space-x-2 bg-gradient-to-r from-ocean-blue to-sky-blue text-white px-6 py-3 rounded-full font-semibold text-center hover:shadow-lg transition-all duration-200"
                     >
