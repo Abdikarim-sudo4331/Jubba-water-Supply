@@ -1,11 +1,59 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Phone, Shield, Clock, Droplets } from 'lucide-react';
+import { ArrowRight, Phone, Shield, Clock, Droplets, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
 import WaveSection from './WaveSection';
 
 const Hero: React.FC = () => {
   const { t } = useLanguage();
+  const [currentSlide, setCurrentSlide] = React.useState(0);
+
+  const slides = [
+    {
+      image: "/Solar Power plant q.jpg",
+      title: "Solar Power Plant",
+      description: "Sustainable energy powering our water treatment facility"
+    },
+    {
+      image: "/Storage tanks 2.jpg",
+      title: "Water Storage Tanks",
+      description: "Large capacity storage ensuring continuous supply"
+    },
+    {
+      image: "/Power backupsGenerators.png",
+      title: "Backup Generators",
+      description: "Reliable power backup systems for uninterrupted service"
+    },
+    {
+      image: "/Emergency Crew.png",
+      title: "Emergency Response Team",
+      description: "24/7 emergency crew ready to respond to any issues"
+    },
+    {
+      image: "/JWS staff.png",
+      title: "Professional Staff",
+      description: "Experienced team ensuring quality water service"
+    },
+    {
+      image: "/Main storage tank @ Barcalen.png",
+      title: "Main Storage Tank",
+      description: "Primary water storage facility at Barcalen"
+    }
+  ];
+
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % slides.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  };
+
+  // Auto-advance slides
+  React.useEffect(() => {
+    const timer = setInterval(nextSlide, 5000);
+    return () => clearInterval(timer);
+  }, []);
 
   const stats = [
     { key: 'households', value: '5,500+', icon: Shield },
@@ -151,13 +199,59 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="relative"
           >
-            <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
-              <img
-                src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Water treatment facility in Kismayo"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-deep-navy/20 to-transparent"></div>
+            <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl group">
+              {/* Image Slider */}
+              <div className="relative w-full h-full">
+                {slides.map((slide, index) => (
+                  <motion.div
+                    key={index}
+                    className="absolute inset-0"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: index === currentSlide ? 1 : 0 }}
+                    transition={{ duration: 0.5 }}
+                  >
+                    <img
+                      src={slide.image}
+                      alt={slide.title}
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-deep-navy/40 to-transparent"></div>
+                    
+                    {/* Slide Info */}
+                    <div className="absolute bottom-4 left-4 right-4 text-white">
+                      <h3 className="text-lg font-bold mb-1">{slide.title}</h3>
+                      <p className="text-sm opacity-90">{slide.description}</p>
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
+
+              {/* Navigation Arrows */}
+              <button
+                onClick={prevSlide}
+                className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 backdrop-blur-sm p-2 rounded-full transition-all opacity-0 group-hover:opacity-100"
+              >
+                <ChevronLeft className="w-5 h-5 text-white" />
+              </button>
+              <button
+                onClick={nextSlide}
+                className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 backdrop-blur-sm p-2 rounded-full transition-all opacity-0 group-hover:opacity-100"
+              >
+                <ChevronRight className="w-5 h-5 text-white" />
+              </button>
+
+              {/* Slide Indicators */}
+              <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
+                {slides.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => setCurrentSlide(index)}
+                    className={`w-2 h-2 rounded-full transition-all ${
+                      index === currentSlide ? 'bg-white' : 'bg-white/50'
+                    }`}
+                  />
+                ))}
+              </div>
             </div>
             
             {/* Floating elements */}
