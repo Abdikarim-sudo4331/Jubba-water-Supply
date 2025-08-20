@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import HowItWorks from './components/HowItWorks';
 import TrustBadges from './components/TrustBadges';
 import Testimonials from './components/Testimonials';
+import WaterCoverageMap from './components/WaterCoverageMap';
 import Footer from './components/Footer';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <HowItWorks />
         <TrustBadges />
         <Testimonials />
+        <WaterCoverageMap />
       </main>
       <Footer />
     </div>
