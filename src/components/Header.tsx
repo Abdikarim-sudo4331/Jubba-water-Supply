@@ -95,8 +95,6 @@ const Header: React.FC = () => {
               <div className="bg-gradient-to-br from-sky-blue to-ocean-blue p-2.5 rounded-2xl shadow-md">
                 <Droplets className="h-6 w-6 text-white" />
               </div>
-              <div>
-                <h1 className="text-xl font-poppins font-bold text-deep-navy">
                   Jubba Water Supply
                 </h1>
                 <p className="text-xs text-gray-600 hidden sm:block font-inter">
@@ -124,12 +122,6 @@ const Header: React.FC = () => {
                 <span>{language.toUpperCase()}</span>
               </button>
             </div>
-
-            <img 
-              src="/JWS Logo.png" 
-              alt="Jubba Water Supply Logo" 
-              className="h-12 w-12 object-contain"
-            />
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center space-x-2">
