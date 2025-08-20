@@ -161,7 +161,6 @@ const WaterCoverageMap: React.FC = () => {
                 </motion.span>
               </a>
             </motion.div>
-          </div>
         </div>
       </div>
     </section>
