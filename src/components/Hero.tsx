@@ -135,7 +135,7 @@ const Hero: React.FC = () => {
                 transition={{ delay: 0.5 }}
                 className="text-lg sm:text-xl text-gray-600 font-inter leading-relaxed max-w-2xl"
               >
-                {t('hero.description')}
+                Jubba water supply serving homes and businesses in Kismayo, Jubbaland, Somalia. Apply for connection today.
               </motion.p>
             </div>
 
