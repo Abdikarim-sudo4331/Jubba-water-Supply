@@ -178,7 +178,7 @@ const Footer: React.FC = () => {
                     <Phone className="w-5 h-5 text-red-400 mt-1" />
                     <div>
                       <p className="font-semibold">Emergency 24/7</p>
-                      <p className="text-gray-300">+252 907 123 456</p>
+                      <p className="text-gray-300">2140</p>
                     </div>
                   </div>
                   
@@ -187,7 +187,7 @@ const Footer: React.FC = () => {
                     <div>
                       <p className="font-semibold">Customer Service</p>
                       <p className="text-gray-300">+252 907 789 012</p>
-                      <p className="text-sm text-gray-400">Mon-Sat: 8AM-6PM</p>
+                      <p className="text-sm text-gray-400">All days working except Friday</p>
                     </div>
                   </div>
                   
