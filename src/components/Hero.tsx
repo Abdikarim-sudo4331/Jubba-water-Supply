@@ -107,7 +107,7 @@ const Hero: React.FC = () => {
                 className="inline-flex items-center space-x-2 bg-sky-blue/10 text-ocean-blue px-4 py-2 rounded-full text-sm font-medium"
               >
                 <Droplets className="w-4 h-4" />
-                <span>Municipal Water Utility</span>
+                <span>Jubba Water Supply</span>
               </motion.div>
               
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-poppins font-bold text-deep-navy leading-tight">
