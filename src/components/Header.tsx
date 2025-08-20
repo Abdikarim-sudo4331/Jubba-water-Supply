@@ -95,6 +95,8 @@ const Header: React.FC = () => {
               <div className="bg-gradient-to-br from-sky-blue to-ocean-blue p-2.5 rounded-2xl shadow-md">
                 <Droplets className="h-6 w-6 text-white" />
               </div>
+              <div>
+                <h1 className="text-xl font-bold text-gray-900 font-inter">
                   Jubba Water Supply
                 </h1>
                 <p className="text-xs text-gray-600 hidden sm:block font-inter">
