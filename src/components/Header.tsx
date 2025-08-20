@@ -121,9 +121,11 @@ const Header: React.FC = () => {
                 className="flex items-center space-x-1 px-3 py-1.5 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors text-sm font-medium text-gray-700"
               >
                 <Globe className="w-4 h-4" />
-                <span>{language.toUpperCase()}</span>
-              </button>
-            </div>
+            <img 
+              src="/JWS Logo.png" 
+              alt="Jubba Water Supply Logo" 
+              className="h-12 w-12 object-contain"
+            />
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center space-x-2">
